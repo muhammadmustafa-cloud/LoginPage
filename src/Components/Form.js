@@ -57,6 +57,9 @@ function Form() {
                     <input type="text" name='uname' value={input.uname} onChange={handleChange} placeholder='Enter Username' />
                     <input type="text" name='email' value={input.email} onChange={handleChange} placeholder='Enter email' />
                     <button className='btn' onClick={handleSubmit}>Login</button>
+                    <h3>OR</h3>
+                    <button className='btn' >Sign Up</button>
+                    <img src="images/logogoogle.png" alt="asdad" className='google' />
                     <ToastContainer/>
                 </form>
 
